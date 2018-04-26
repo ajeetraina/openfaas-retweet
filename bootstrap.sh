@@ -10,4 +10,5 @@ curl -sSL https://cli.openfaas.com | sudo sh
 mkdir -p ~/retweet && \
 cd retweet
 faas-cli new --lang python retweet
-faas-cli build  -f ./retweet.yml
+# faas-cli build  -f ./retweet.yml
+# faas-cli deploy -f ./retweet.yml
